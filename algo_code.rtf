@@ -1,0 +1,104 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10100\viewh8940\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs18\fsmilli9240 \cf0 import pandas as pd \
+df-pd.read_csv(r"C: \\Users \\admin\\Desktop\\TORQUEDATA. csv")\
+dfadf.drop (columns=" _NUMERICID*)\
+dfedf.drop(columns=\'93_QUALITY")\
+df=df.drop(columns="id")\
+def identifystartstopalto(df) :\
+temp=pd.DataFrame ()\
+i=0\
+x=0\
+for i in range (len(df)):\
+if (df.loc [i]("_NAME"]==("YE3 LSB.561A ROBOT. Programme No")):\
+if (df.loc [i]["_VALUE"]==21):\
+XE1\
+1f(df.loc[i]["_VALUE"]==6):\
+X=0\
+if (x==1):\
+temp=temp.append(df.iloc[i])\
+i=i+1\
+return temp\
+dfjlaltompd.DataFrame()\
+dfjlalto=dfnewalto[dfnewalto['_NAME']-str.contains("31|ProgrammeNo")]\
+dfj2alto=pd.DataFrame()\
+dfj2alto=dfnewalto[dfnewalto['_NAME'].str.contains("32|ProgrammeNo")]\
+dfj3alto=pd.DataFrame ( )\
+dfj3alto=dfnewalto[dfnewalto('_NAME^].str.contains("J3|ProgrammeNo")]\
+dfj4alto=pd.DataFrame ()\
+dfj4alto=dfnewalto[dfnewalto['_NAME'].str.contains("34|ProgrammeNo")]\
+dfjSalto=pd.DataFrame()\
+dfjsalto=dfnewalto[dfnewalto[*_NAME].str.contains("35|ProgrammeNo")]\
+dfi6alto=pd.DataFrame()\
+dfj6alto=dfnewalto[dfnewalto['_NAME'].str.contains("J6|ProgrammeNo")]\
+dfj1altopositive=pd.DataFrame() \
+dfj2altopositive=pd.DataFrame()\
+dfj3altopositive=pd.DataFrame ()\
+ dfj4altopositive=pd.DataFrame() \
+dfj5altopositive=pd.DataFrame()\
+dfj6altopositive=pd.DataFrame ()\
+dfjlaltonegative=pd.DataFrame()\
+dfj2altonegative=pd.DataFrame () \
+dfj3altonegative=pd.DataFrame() \
+dfj4altonegative=pd.DataFrame() \
+dfj5altonegative=pd.DataFrame() \
+dfj6altonegative=pd.DataFrame()\
+dfjlaltonegative=dfjialto.loc[(dfjlalto['_VALUE']<=8)|(dfjialto['_VALUE']=-21)]\
+dfj2altonegative=dfjlalto.loc[(dfjialto['_VALUE']<=0)|(dfjialto['_VALUE']==21)1\
+dfj3altonegative=dfjlalto.loc[(dfjlalto['_VALUE']<=0)|(dfjlalto['_VALUE']==21)]\
+dfjaltonegative=dfjlalto.loc[(dfjlalto['_VALUE']<=0)|(dfjlalto['_VALUE^]==21)]\
+dfjSaltonegative=dfjlalto.loc[(dfjialto['_VALUE']<=0)|(dfjialto['_VALUE']==21)]\
+dfj6altonegative=dfjlalto.loc[(dfjlalto['_VALUE']<=0)|(dfjlalto['_VALUE']==21)]\
+dfjlaltonegative.reset_index(drop=True,inplace=True)\
+dfj2altonegative.reset_index(drop=True,inplace=True)\
+dfj3altonegative.reset_index(drop=True,inplace=True)\
+dfj4altonegative.reset_index(drop=True,inplace=True)\
+dfjSaltonegative.reset_index(drop=True,inplace=True)\
+dfj6altonegative.reset_index (drop=True, inplace=True)\
+dfAJ1alto=pd.DataFrame(columns=['AREA']) \
+dfAJ2alto=pd.DataFrame (columns= ['AREA']) \
+dfAJ3alto=pd.DataFrame (columns= ('AREA']) \
+dfAJ4alto=pd.DataFrame (columns= ['AREA']) \
+dfAJ5alto=pd. DataFrame (columns= ['AREA'1) \
+dfAJ6alto=pd.DataFrame (columns=['AREA'])\
+z= ' NAME': 'YE3 LSB.561A ROBOT. Programme No', ' _VALUE': 0] dfjialtopositive=dfjialtopositive.append(z,ignore_index=True)\
+\
+import numpy as np \
+from scipy. integrate import simps \
+from numpy import trapz\
+*2=( _NAME*: "YE3 LSB. 5614 ROBOT. Programme No', '_VALUE':B)\
+#('_ VALUE^:e\} #dfjialtopositive=dfjlaltopositive.append(2, ignore_ index=True) #afilaltopositive=dfjialtopositive.append(w,ignore_index=True)\
+X=0\
+C=0 temp=pd.Dataframe ()\
+for i in range (0, len(dfj3altopositive)-1):\
+if(dfjialtopositive.loc[i]["_NAME"]=="YE3 LSB.561A ROBOT. Programme No" ):\
+if ( dfjlaltopositive.loc(a][" VALUE"1==21):\
+x=0 cel\
+while(cl=8):\
+temp=temp. append(dfjlaltopositive.iloc[i])\
+\'87y=np.array ([temp[ L_VALUE "JJ)\
+#x=x+trapz(y,dx=0.1)\
+#dfajlalto=/'AREA':x1\
+*afA lalto=dfAJialto.append(dfajialto , ignore_index=True) if (dfjialtopositive.loc[i]["_NAME"]=="VE3 LSB.561A ROBOT. Programme No" ):\
+If ( dfjlaltopositive.loc[i]("_VALUE"]==0):\
+y=np. array([temp[' _VALUE^11)\
+\'d7=x+trapz(y,dx=0.1) dfajialto=\{ AREA':\'d7)\
+dfAJialto=dfAJ1alto.append(dfajialto, ignore_index=True) temp-temp.iloc[e:01\
+\uc0\u1089  0\
+Import xlsxwriter\
+with pd.ExcelWriter('Prasenjitout.xisx*)as writer:\
+file_name= 'PrasenjitOut.xisx' \
+dfAJlalto.to_excel (writer,sheet_name=']1*) \
+dfAJ2alto.to_excel(writer, sheet_names '32') \
+dfAJ3alto. to_excel(writer, sheet_names '33') \
+dfAJ4alto.to_excel(writer,sheet_name='J4*) \
+dfAJSalto.to_excel(writer, sheet_name='35') \
+dfAJbalto.to_excel(writer, sheet_names '36*)\
+\
+\
+}
